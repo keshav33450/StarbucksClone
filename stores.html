@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Starbucks | Stores</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+<div class="container nav-container">
+<div class="logo">
+<img src="./store.jpg" alt="Starbucks logo">
+<span>Starbucks</span>
+</div>
+<nav>
+<button class="nav-toggle">
+<span></span>
+<span></span>
+<span></span>
+</button>
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="menu.html">Menu</a></li>
+<li><a href="rewards.html">Rewards</a></li>
+<li><a href="giftcards.html">Gift Cards</a></li>
+<li><a href="stores.html" class="active-link">Stores</a></li>
+<li class="nav-btn-group">
+<a href="sign.html" class="btn btn-outline small">Sign in</a>
+</li>
+</ul>
+</nav>
+</div>
+</header>
+<main>
+<section class="section">
+<div class="container">
+<h1 class="center">Find a store</h1>
+<p class="center" style="margin-bottom:20px;">Enter a city or pincode to view nearby Starbucks stores.</p>
+<div class="store-search">
+<input type="text" placeholder="Search by city, area or pincode" id="store-input">
+<button class="btn btn-filled" id="store-search-btn">Search</button>
+</div>
+<div id="store-results" class="store-results"></div>
+</div>
+</section>
+</main>
+<footer class="footer">
+<p>© 2025 Starbucks Clone</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
