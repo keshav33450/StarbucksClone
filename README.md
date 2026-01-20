@@ -6,7 +6,7 @@ This project replicates the modern Starbucks landing page design with a clean UI
 ---
 
 ## 🚀 Live Demo
-🔗 
+🔗  https://keshav33450.github.io/StarbucksClone/
 
 ---
 
