@@ -47,6 +47,7 @@ gap:20px;
 color:#1e3932;
 font-weight:600;
 position:relative;
+text-decoration:none;
 }
 .nav-links a.active-link::after{
 content:"";
@@ -223,7 +224,7 @@ background:#ffffff;
 flex-direction:column;
 padding:20px;
 gap:20px;
-display:none;
+text-decoration:none;
 z-index:9;
 }
 .nav-links.open{
